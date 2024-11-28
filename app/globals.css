@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+html,
+body {
+  font-family: var(--font-montserrat);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+}
+
+* {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.scrollable-page::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scrollable-page::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollable-page::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.scrollable-page::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+/* ANJAY MABAR */
+
+.scrollable-div::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
